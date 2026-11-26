@@ -1,0 +1,2 @@
+epoch,loss,sparse_categorical_accuracy,val_loss,val_sparse_categorical_accuracy
+0,0.693249523639679,0.4854166805744171,0.6930862069129944,0.5242718458175659

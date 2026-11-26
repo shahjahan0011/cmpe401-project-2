@@ -1,0 +1,62 @@
+{
+  "seed": 401,
+  "epoch_limit": 10,
+  "batch_size": 256,
+  "best_epoch": 1,
+  "parameters": 5153,
+  "training_seconds": 244.9860679580015,
+  "dataset": {
+    "rows": 420551,
+    "split_row": 300693,
+    "training_windows": 299979,
+    "validation_windows": 118352,
+    "training_targets_at_or_after_split": 78,
+    "raw_steps_from_last_input_to_target": 78,
+    "unused_validation_rows_at_end": 714
+  },
+  "normalization": {
+    "mean": [
+      988.6585038893489,
+      9.250203962180695,
+      13.463532473319962,
+      4.007798818063606,
+      5.976072306305769,
+      1216.333793703212,
+      2.149327154273628
+    ],
+    "std": [
+      8.228046185785976,
+      8.635015642805945,
+      7.678188841021136,
+      4.803931209755725,
+      2.6890535200167185,
+      40.853512025085266,
+      1.527055119954377
+    ]
+  },
+  "metrics": {
+    "lstm": {
+      "mse_normalized": 0.13099870833911922,
+      "mae_c": 2.439046111396871,
+      "rmse_c": 3.125335430653343
+    },
+    "persistence": {
+      "mse_normalized": 0.43024065497365643,
+      "mae_c": 4.394060177590207,
+      "rmse_c": 5.663942707258598
+    }
+  },
+  "dataset_sha256": "63d757501e92284a7de7cdbef0337f03b24e13ead7ac2b5b8c86a18d8e38ba5b",
+  "environment": {
+    "python": "3.12.14",
+    "keras": "3.12.0",
+    "tensorflow": "2.20.0",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "devices": [
+      "CPU"
+    ],
+    "intraop_threads": "4",
+    "interop_threads": "2"
+  },
+  "epochs_run": 6
+}
