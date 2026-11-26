@@ -1,0 +1,49 @@
+{
+  "config": "patch-position",
+  "engine": "literal",
+  "seed": 401,
+  "epoch_limit": 40,
+  "epochs_run": 22,
+  "best_epoch": 12,
+  "val_loss": 0.5919616222381592,
+  "val_accuracy": 0.6865464448928833,
+  "test_loss": 0.6036916971206665,
+  "test_accuracy": 0.6772727370262146,
+  "test_balanced_accuracy": 0.6809993588550391,
+  "test_confusion_matrix": [
+    [
+      384,
+      297
+    ],
+    [
+      129,
+      510
+    ]
+  ],
+  "majority_class": 0,
+  "majority_test_accuracy": 0.5159090909090909,
+  "split_sizes": {
+    "train": 2880,
+    "validation": 721,
+    "test": 1320
+  },
+  "literal_parameters": 278514,
+  "trained_graph_parameters": 278514,
+  "training_seconds": 55.36430458299583,
+  "folding_max_probability_delta": null,
+  "dataset_sha256": {
+    "FordA_TRAIN.tsv": "f80f6df3336194b2d52bb29fc41c980e7f0a809c80a5c5b79121d74622e0a7de",
+    "FordA_TEST.tsv": "02a17aab8794822957f7d50e3f6904f10b7dfa5c858bbb2b8047c4b0c64bbefe"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "keras": "3.12.0",
+    "tensorflow": "2.20.0",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "devices": [
+      "CPU"
+    ],
+    "intraop_threads": "4",
+    "interop_threads": "2"
+  }
+}
